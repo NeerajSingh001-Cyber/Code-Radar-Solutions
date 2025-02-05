@@ -7,5 +7,5 @@ int main(){
         printf("True");
     }
     else{
-        printf("Flase");
+        printf("False");
     }}
