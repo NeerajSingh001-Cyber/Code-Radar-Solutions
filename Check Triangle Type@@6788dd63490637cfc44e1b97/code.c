@@ -9,6 +9,6 @@ int main(){
         printf("Isolateral");
     }
     else{
-        print("scalene");
+        printf("scalene");
     }
 }
