@@ -8,10 +8,7 @@ int main(){
             if(j!=i){
                 printf(" ");
             }
-            for(k=1;k<=i;k++){
-                printf("\n");
-            }
-    }
-
+            printf("\n");
+        }
     }
 }
