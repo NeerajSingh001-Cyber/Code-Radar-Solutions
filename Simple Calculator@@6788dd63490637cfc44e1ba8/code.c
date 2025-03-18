@@ -11,7 +11,7 @@ int main(){
     {
         printf("%d\n",a-m);
     }
-    else if(op=='*');
+    else if(op=='*')
     {
         printf("%d\n",a*m);
     }
@@ -23,7 +23,7 @@ int main(){
         }
         else
         {
-            printf("%d",a/m);
+            printf("%d\n",a/m);
         }
     }
     else
