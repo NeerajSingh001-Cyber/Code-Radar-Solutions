@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main(){
-    int n,m;
+    int a,m;
     char op;
-    scanf("%d %d %c",&n,&m,&op);
+    scanf("%d%d%c",&a,&m,&op);
     if(op=="+")
     {
-        printf("%d",n+m);
+        printf("%d\n",a+m);
     }
     else if(op=="-")
     {
-        printf("%d",n-m);
+        printf("%d\n",a-m);
     }
     else if(op=="*");
     {
-        printf("%d",n*m);
+        printf("%d\n",a*m);
     }
     else if(op=="/")
     {   
@@ -23,7 +23,7 @@ int main(){
         }
         else
         {
-            printf("%d",n/m);
+            printf("%d",a/m);
         }
     }
     else
